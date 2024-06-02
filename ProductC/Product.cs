@@ -22,7 +22,7 @@ namespace ProductC
                 throw new ArgumentOutOfRangeException("ProductID must be between 1 and 1000.");
             if (price < 1 || price > 5000)
                 throw new ArgumentOutOfRangeException("Price must be between 1 and 5000.");
-            if (stock < 1 || stock > 1000)
+            if (stock < 1 || stock > 2000)
                 throw new ArgumentOutOfRangeException("Stock must be between 1 and 1000.");
 
             this.productId = productId;
